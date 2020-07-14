@@ -1,4 +1,7 @@
 import smtplib
+from kmean import ddos
+
+
 
 
 
@@ -17,7 +20,7 @@ server.login("junedansari771@gmail.com","password")
 # In[11]:
 
 
-message = "IP blocked Successfully!!!"
+message = "Blocked IP is  {0}".format(ddos)
 
 
 # In[12]:
